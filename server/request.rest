@@ -1,0 +1,18 @@
+ GET http://localhost:5000/todos
+
+###
+
+POST http://localhost:5000/todo/new HTTP/1.1
+content-type: application/json
+
+{
+    "text":"get the bread"
+}
+
+###
+
+DELETE http://localhost:5000/todo/delete/650edb4ccb8191c1718e31d5
+
+###
+
+PUT http://localhost:5000/todo/complete/650edeb27ce57b7904a67715
